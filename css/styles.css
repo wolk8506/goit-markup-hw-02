@@ -1,0 +1,149 @@
+:root {
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --title--color: #212121;
+  --text--color: #757575;
+  --background-color-section: #2f303a;
+}
+/* Общее */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text--color);
+  background-color: var(--background-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title--color);
+}
+/* ************************************************************************************ */
+/* Хедер */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-top {
+  color: #000000;
+}
+.page,
+.contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.page {
+  color: var(--title--color);
+}
+.contact {
+  color: var(--text--color);
+}
+.page:hover,
+.contact:hover,
+.page:focus,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* *******************************  Страница Студия  ******************************* */
+/* Герой */
+.hiro {
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--background-color-section);
+}
+.hiro-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hiro-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* Особенности */
+.specialty-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title--color);
+}
+/* Чем мы занимаемся */
+
+/* Наша команда */
+.mans {
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+}
+.man-name {
+  font-weight: 500;
+  color: var(--title--color);
+}
+/* *******************************  Страница Портфолио  ******************************* */
+/* Фильтр навигации */
+.navigation-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title--color);
+  cursor: pointer;
+}
+.navigation-btn:hover,
+.navigation-btn:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+/* Проекты портфолио */
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title--color);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* ************************************************************************************ */
+/* Подвал */
+.logo-bottom {
+  color: var(--background-color);
+}
+footer {
+  background-color: var(--background-color-section);
+}
+address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--background-color);
+}
+.contact-bottom {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-bottom:hover,
+.contact-bottom:focus {
+  color: var(--accent-color);
+}
