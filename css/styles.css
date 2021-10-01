@@ -4,6 +4,8 @@
   --title--color: #212121;
   --text--color: #757575;
   --background-color-section: #2f303a;
+  --logo-top-color: #000000;
+  --contact-botom-color: rgba(255, 255, 255, 0.6);
 }
 /* Общее */
 body {
@@ -27,6 +29,12 @@ body {
   text-align: center;
   color: var(--title--color);
 }
+.btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* ************************************************************************************ */
 /* Хедер */
 .logo {
@@ -37,7 +45,7 @@ body {
   color: var(--accent-color);
 }
 .logo-top {
-  color: #000000;
+  color: var(--logo-top-color);
 }
 .page,
 .contact {
@@ -47,6 +55,9 @@ body {
 }
 .page {
   color: var(--title--color);
+}
+.active {
+  color: var(--accent-color);
 }
 .contact {
   color: var(--text--color);
@@ -74,11 +85,10 @@ body {
 }
 .hiro-btn {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--background-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 /* Особенности */
 .specialty-title {
@@ -91,22 +101,22 @@ body {
 /* Наша команда */
 .mans {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
 }
 .man-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   color: var(--title--color);
 }
 /* *******************************  Страница Портфолио  ******************************* */
 /* Фильтр навигации */
 .navigation-btn {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
-  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title--color);
-  cursor: pointer;
 }
 .navigation-btn:hover,
 .navigation-btn:focus {
@@ -136,12 +146,13 @@ footer {
 }
 address {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--background-color);
 }
 .contact-bottom {
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-botom-color);
 }
 .contact-bottom:hover,
 .contact-bottom:focus {
